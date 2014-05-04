@@ -1,0 +1,40 @@
+\documentclass[a4paper,9pt]{article}
+
+\usepackage[backref]{hyperref} % clickable links and citations
+\hypersetup
+{
+	colorlinks=true,
+	linkcolor=red,
+	citecolor=blue,
+	urlcolor=blue,
+	linktoc=page
+}
+
+%\renewcommand*{\familydefault}{\sfdefault}
+
+\title{Implementing J in Racket}
+\author{Rohan Prinja}
+
+\date{\today}
+\begin{document}
+\maketitle
+
+\section{Introduction}
+This document describes an outline for implementing a subset of the \href{http://jsoftware.com}{J programming language} in the \href{http://racket-lang.org}{Racket programming language}.
+
+\subsection{Motivation}
+This was originally done as part of an effort to integrate array programming into the syllabus for the Abstractions and Paradigms in Programming course for sophomores in computer science at \href{http://www.iitb.ac.in}{IIT Bombay}. Racket is used throughout the course as a means to work with functional programming and object-oriented programming. We hope to augment this with array programming.
+
+J is the latest in a family of array programming languages whose legacy dates back to the \href{http://en.wikipedia.org/wiki/APL\_(programming_language)‎}{1960s}. It is a fast, interpreted, non-von Neumann language with support for tacit programming that shines in the fields of mathematical and statistical computing. J programs tend to be very terse  primarily because the function names are very drawn almost exclusively from the non-alphabet portion of the ASCII set.
+
+Despite its terseness and mildly steep learning curve, J can be a very expressive, powerful and enjoyable language to program in. It has a great community and is under active development, with stable versions released almost yearly.
+
+`
+\section{Completed Work}
+In this implementation we have implemented the following features of J in Racket:
+\begin{enumerate}
+	\item abc
+	\item xyz
+\end{enumerate}
+
+\end{document}
